@@ -1,0 +1,49 @@
+/*p {
+    color:blue
+}*/
+
+@media(max-width: 768px){
+#prvy-paragraf {
+    color:red;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box{
+    background-color: #007BFF;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.box123{
+    background-color: #007BFF;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+
+}
+
+.ukazka-container{
+    position: absolute;
+    top: 0px;
+}
+
+
