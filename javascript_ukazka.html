@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jvascript ukazka</title>
+</head>
+<body>
+    <div>
+        <p id="text1">Toto je puvodni text</p>
+        <button onclick="zmenText()">Zmenit text</button>
+        <button onclick="zmenBarvu()">Zmenit barvu</button>
+        <button onclick="toggleText()">Skryt/Zobrazit</button>
+    </div>
+    
+    <script>
+        function zmenText(){
+            let textKZmene = "Text byl zmenen";
+            document.getElementById("text1").textContent = "Text byl zmenen";
+        }
+
+        function zmenBarvu(){
+            document.getElementById("text1").style.color = "blue";
+        }
+        function toggleText() {
+    const text = document.getElementById("text1");
+    
+    if (text.style.display === "none") {
+        text.style.display = "block";
+    } else {
+        text.style.display = "none";
+    }
+}
+
+    </script>
+
+
+
+</body>
+</html>
